@@ -2,6 +2,7 @@
 ## IN THE SAME ORDER AS THE ARGUMENTS ARE TAKEN FROM THE
 ## COMMAND LINE SPECIFIED BELOW
 import sys
+
 def main(x) :
 	## YOU CODE SHOULD START HERE AST THE SAME
 	## IDENTATION AS THIS COMMENT
@@ -20,7 +21,7 @@ def main(x) :
 				a = a + 1
 			j = j + 1
 		if (a >= d):
-			return("no anti-prime")
+			return("not anti-prime")
 		else:
 			y = y + 1
 			j = 1
