@@ -14,7 +14,7 @@ def main(x) :
 		if (x % i == 0):
 			d = d + 1
 		i = i + 1
-	while (y < x):	
+	while (y <= x - 1):	
 		while (j <= y):
 			if (y % j == 0):
 				a = a + 1
