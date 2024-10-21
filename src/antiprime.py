@@ -7,14 +7,14 @@ def main(x) :
 	## IDENTATION AS THIS COMMENT
 	i = 1
 	j = 1
-	y = x - 1
+	y = 1
 	a = 0
 	d = 0
 	while (i <= x):
 		if (x % i == 0):
 			d = d + 1
 		i = i + 1
-	while (y < x and y > 1):	
+	while (y < x):	
 		while (j <= y):
 			if (y % j == 0):
 				a = a + 1
@@ -22,7 +22,7 @@ def main(x) :
 		if (a >= d):
 			return("no anti-prime")
 		else:
-			y = y - 1
+			y = y + 1
 			j = 1
 			a = 0
 	if (a < d):
